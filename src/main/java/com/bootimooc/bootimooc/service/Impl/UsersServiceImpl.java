@@ -33,4 +33,17 @@ public class UsersServiceImpl implements UsersService {
         List<Users> users = usersMapper.selectByExample(usersExample);
         return users.size() > 0 ;
     }
+
+    @Override
+    public boolean insertUsers(Users users) {
+        return usersMapper.insert(users)>0;
+    }
+
+    @Override
+    public boolean selectUsersByName(String uname) {
+        UsersExample usersExample = new UsersExample();
+        usersExample.createCriteria().andNicknameEqualTo(uname);
+        List<Users> users = usersMapper.selectByExample(usersExample);
+        return users.size() > 0;
+    }
 }

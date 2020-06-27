@@ -2,7 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b33d76d-a20c-4137-b95f-23752a4b5251" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/CarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ClassifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/DirectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/EchartsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/EstimateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/FourController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/LevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ScreenCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CarouselExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CartPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CartProExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Chapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/ChapterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Classify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CourseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/DirectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Estimate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/EstimateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/HomePageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/LevelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/CarouselMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/CartProMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/ChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/ClassifyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/DirectionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/EstimateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/FourMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/HomePageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/LevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/ScreenCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/CarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/ClassifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/DirectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/EstimateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/FourService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/HomePageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/CarouselServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/ClassifyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/DirectionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/EstimateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/FourServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/HomePageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/LevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/ScreenCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/LevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/ScreenCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ ScreenCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CartProMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ClassifyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/DirectionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/EstimateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/HomePageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/LevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/CarouselController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/ClassifyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/DirectionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/EchartsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/EstimateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/HomePageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/LevelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/ScreenCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Carousel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartPro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Chapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Classify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Estimate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Level.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/CarouselMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/CartProMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/ChapterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/ClassifyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/DirectionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/EstimateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/HomePageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/LevelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/ScreenCourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/CarouselService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/ClassifyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/DirectionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/EstimateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/HomePageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/CarouselServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/ClassifyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/DirectionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/EstimateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/HomePageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/LevelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/ScreenCourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/LevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/ScreenCourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ ScreenCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/CartProMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ClassifyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/DirectionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/EstimateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/HomePageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/LevelMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mbg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +177,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,7 +215,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapping" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,13 +225,19 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bootimooc.bootimooc.service.Impl" />
+      <recent name="com.bootimooc.bootimooc.service" />
+      <recent name="com.bootimooc.bootimooc.controller" />
       <recent name="com.bootimooc.bootimooc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zuo\Desktop\天津市大学软件学院\2019-20-下\CO组-imooc项目\bootimooc\src\main\resources\mapping" />
+      <recent name="D:\zuo\Desktop\天津市大学软件学院\2019-20-下\CO组-imooc项目\bootimooc\src\main\java\com\bootimooc\bootimooc\mapper" />
+      <recent name="D:\zuo\Desktop\天津市大学软件学院\2019-20-下\CO组-imooc项目\bootimooc\src\main\java\com\bootimooc\bootimooc\entity" />
       <recent name="D:\zuo\Desktop\天津市大学软件学院\2019-20-下\CO组-imooc项目\bootimooc\src\main\resources" />
     </key>
   </component>
@@ -87,70 +258,6 @@
     <configuration name="BootimoocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bootimooc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bootimooc.bootimooc.BootimoocApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 9.0.291" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_291_bootimooc_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8510" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,7 +329,6 @@
     <list>
       <item itemvalue="Application.TestGenerator" />
       <item itemvalue="Spring Boot.BootimoocApplication" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.291" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -230,12 +336,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -256,6 +357,23 @@
       <workItem from="1591923362917" duration="702000" />
       <workItem from="1591924118252" duration="13690000" />
       <workItem from="1591960634643" duration="862000" />
+      <workItem from="1592009535227" duration="3712000" />
+      <workItem from="1592019327348" duration="7718000" />
+      <workItem from="1592102757659" duration="3575000" />
+      <workItem from="1592123064890" duration="3644000" />
+      <workItem from="1592129177249" duration="2215000" />
+      <workItem from="1592191323058" duration="8318000" />
+      <workItem from="1592266082928" duration="21874000" />
+      <workItem from="1592352295843" duration="9389000" />
+      <workItem from="1592441680241" duration="14370000" />
+      <workItem from="1592528853491" duration="20491000" />
+      <workItem from="1592612037988" duration="15856000" />
+      <workItem from="1592705059663" duration="3559000" />
+      <workItem from="1592785588450" duration="17181000" />
+      <workItem from="1592871765761" duration="3641000" />
+      <workItem from="1592959412141" duration="9677000" />
+      <workItem from="1593131110750" duration="4297000" />
+      <workItem from="1593219195427" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="06-12-更新">
       <created>1591960872682</created>
@@ -283,82 +401,94 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="630" y="181" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1591926369582" />
-    <state x="492" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591927289933">
+    <state x="492" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592397931230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="492" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591927289933" />
-    <state x="843" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1591930145463">
+    <state x="492" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592397931230" />
+    <state x="843" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1593137214441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="843" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591930145463" />
-    <state x="768" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591923454526">
+    <state x="843" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593137214441" />
+    <state x="730" y="387" width="460" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592613156916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="768" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591923454526" />
-    <state x="459" y="116" key="CommitChangelistDialog2" timestamp="1591960867230">
+    <state x="730" y="387" width="460" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1592613156916" />
+    <state x="768" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592548138071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="459" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591960867230" />
-    <state x="818" y="278" key="FileChooserDialogImpl" timestamp="1591960646731">
+    <state x="768" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592548138071" />
+    <state x="459" y="116" key="CommitChangelistDialog2" timestamp="1593219820543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591960646731" />
+    <state x="459" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593219820543" />
+    <state x="818" y="278" key="FileChooserDialogImpl" timestamp="1593219565763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593219565763" />
+    <state x="785" y="418" width="373" height="203" key="Github.CreateGistDialog" timestamp="1592286419948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="418" width="373" height="203" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592286419948" />
     <state x="827" y="416" width="274" height="281" key="Github.ShareDialog" timestamp="1591960981063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="416" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591960981063" />
-    <state width="1716" height="344" key="GridCell.Tab.0.bottom" timestamp="1591944014087">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1593175979124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014087" />
-    <state width="1716" height="344" key="GridCell.Tab.0.center" timestamp="1591944014085">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593175979124" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1593175979124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014085" />
-    <state width="1716" height="344" key="GridCell.Tab.0.left" timestamp="1591944014085">
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593175979124" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1593175979123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014085" />
-    <state width="1716" height="344" key="GridCell.Tab.0.right" timestamp="1591944014086">
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593175979123" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1593175979124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014086" />
-    <state width="1716" height="344" key="GridCell.Tab.1.bottom" timestamp="1591944014087">
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593175979124" />
+    <state width="1877" height="162" key="GridCell.Tab.1.bottom" timestamp="1593175978935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014087" />
-    <state width="1716" height="344" key="GridCell.Tab.1.center" timestamp="1591944014087">
+    <state width="1877" height="162" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593175978935" />
+    <state width="1877" height="162" key="GridCell.Tab.1.center" timestamp="1593175978935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014087" />
-    <state width="1716" height="344" key="GridCell.Tab.1.left" timestamp="1591944014087">
+    <state width="1877" height="162" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593175978935" />
+    <state width="1877" height="162" key="GridCell.Tab.1.left" timestamp="1593175978935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014087" />
-    <state width="1716" height="344" key="GridCell.Tab.1.right" timestamp="1591944014087">
+    <state width="1877" height="162" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593175978935" />
+    <state width="1877" height="162" key="GridCell.Tab.1.right" timestamp="1593175978935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014087" />
-    <state width="1716" height="344" key="GridCell.Tab.2.bottom" timestamp="1591944014088">
+    <state width="1877" height="162" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593175978935" />
+    <state width="1877" height="349" key="GridCell.Tab.2.bottom" timestamp="1592839764367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014088" />
-    <state width="1716" height="344" key="GridCell.Tab.2.center" timestamp="1591944014088">
+    <state width="1877" height="349" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592839764367" />
+    <state width="1877" height="349" key="GridCell.Tab.2.center" timestamp="1592839764367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014088" />
-    <state width="1716" height="344" key="GridCell.Tab.2.left" timestamp="1591944014087">
+    <state width="1877" height="349" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592839764367" />
+    <state width="1877" height="349" key="GridCell.Tab.2.left" timestamp="1592839764367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014087" />
-    <state width="1716" height="344" key="GridCell.Tab.2.right" timestamp="1591944014088">
+    <state width="1877" height="349" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592839764367" />
+    <state width="1877" height="349" key="GridCell.Tab.2.right" timestamp="1592839764367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1716" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591944014088" />
-    <state x="730" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1591923365667">
+    <state width="1877" height="349" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592839764367" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1593219494692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591923365667" />
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593219494692" />
+    <state x="730" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593219205951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593219205951" />
     <state x="412" y="228" key="new project wizard" timestamp="1591845523457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -367,19 +497,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591923709130" />
+    <state x="0" y="629" key="svn.repositoryBrowser" timestamp="1593219559369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="629" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1593219559369" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/HomePageServiceImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ClassifyController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ScreenCourseController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/FourService.java</url>
+          <line>9</line>
+          <properties class="com.bootimooc.bootimooc.service.FourService">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ClassifyController.java</url>
+          <line>21</line>
+          <properties class="com.bootimooc.bootimooc.controller.ClassifyController" method="selectClassifyAllOrByDirectionid">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ScreenCourseController.java</url>
+          <line>21</line>
+          <properties class="com.bootimooc.bootimooc.controller.ScreenCourseController" method="ScreenAllCourse">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bootimooc.bootimooc.mapper.ScreenCourseMapper">
+    <resultMap id="BaseResultMap" type="com.bootimooc.bootimooc.entity.Course">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="classifyId" jdbcType="INTEGER" property="classifyid" />
+        <result column="directionId" jdbcType="INTEGER" property="directionid" />
+        <result column="levelId" jdbcType="INTEGER" property="levelid" />
+        <result column="raleaseTime" jdbcType="TIMESTAMP" property="raleasetime" />
+        <result column="studyCount" jdbcType="INTEGER" property="studycount" />
+        <result column="couresCover" jdbcType="VARCHAR" property="courescover" />
+        <result column="validDay" jdbcType="VARCHAR" property="validday" />
+        <result column="lecturerId" jdbcType="INTEGER" property="lecturerid" />
+        <result column="courseName" jdbcType="VARCHAR" property="coursename" />
+        <result column="describe" jdbcType="VARCHAR" property="describe" />
+        <result column="free" jdbcType="VARCHAR" property="free" />
+        <result column="price" jdbcType="DOUBLE" property="price" />
+        <result column="courseDuration" jdbcType="TIMESTAMP" property="courseduration" />
+        <result column="homepageId" jdbcType="INTEGER" property="homepageid" />
+        <result column="keyword" jdbcType="VARCHAR" property="keyword" />
+        <result column="position" jdbcType="VARCHAR" property="position" />
+        <result column="enumber" jdbcType="INTEGER" property="enumber" />
+        <result column="leve" jdbcType="VARCHAR" property="leve" />
+        <result column="labela" jdbcType="VARCHAR" property="labela" />
+        <result column="labelb" jdbcType="VARCHAR" property="labelb" />
+        <result column="labelc" jdbcType="VARCHAR" property="labelc" />
+    </resultMap>
+
+    <select id="ScreenAllCourse"  resultMap="BaseResultMap">
+
+        SELECT
+        *
+        FROM
+        course
+        <where>
+            <if test="describee != null">
+                directionId IN (
+                SELECT
+                id
+                FROM
+                direction
+                WHERE
+                describee = #{describee}
+                )
+            </if>
+
+            <if test="classifyName != null and classifyName != ''">
+                AND classifyId IN (
+                SELECT
+                id
+                FROM
+                classify
+                WHERE
+                classifyName = #{classifyName}
+                )
+            </if>
+
+            <if test="levelName != null and levelName != ''">
+                AND levelId IN (
+                SELECT
+                id
+                FROM
+                `level`
+                WHERE
+                levelName = #{levelName}
+                )
+            </if>
+
+            <if test="courseName != null and courseName != ''">
+                AND courseName like CONCAT('%',#{courseName},'%')
+            </if>
+
+        </where>
+
+    </select>
+
+
+</mapper>

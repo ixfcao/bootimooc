@@ -15,4 +15,6 @@ mybatis:
   type-aliases-package: com.bootimooc.bootimooc.entity
   #开启驼峰命名
   configuration:
+#    打印sql语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true

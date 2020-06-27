@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bootimooc.bootimooc.mapper.ClassifyMapper">
+  <resultMap id="BaseResultMap" type="com.bootimooc.bootimooc.entity.Classify">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="classifyName" jdbcType="VARCHAR" property="classifyname" />
+    <result column="directionId" jdbcType="INTEGER" property="directionid" />
+  </resultMap>
+
+  <select id="selectClassifyAllOrByDirectionid" resultMap="BaseResultMap">
+    SELECT * FROM classify
+    <where>
+        <if test="describee != null and describee != '' and describee != 'undefined'">
+          directionId IN (
+          SELECT
+          id
+          FROM
+          direction
+          WHERE
+          describee = #{describee}
+          )
+        </if>
+    </where>
+
+  </select>
+
+</mapper>
