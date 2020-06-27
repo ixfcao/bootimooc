@@ -1,173 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b33d76d-a20c-4137-b95f-23752a4b5251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/CarouselController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ClassifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/DirectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/EchartsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/EstimateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/FourController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/HomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/LevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/ScreenCourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Carousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CarouselExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CartPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CartProExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Chapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/ChapterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Classify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/CourseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/DirectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Estimate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/EstimateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/HomePageExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/entity/LevelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/CarouselMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/CartProMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/ChapterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/ClassifyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/DirectionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/EstimateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/FourMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/HomePageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/LevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/mapper/ScreenCourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/CarouselService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/ClassifyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/DirectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/EstimateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/FourService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/HomePageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/CarouselServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/ClassifyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/DirectionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/EstimateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/FourServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/HomePageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/LevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/ScreenCourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/LevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/ScreenCourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ ScreenCourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CarouselMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CartProMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ChapterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ClassifyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/DirectionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/EstimateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/HomePageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/LevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/CarouselController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/ClassifyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/DirectionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/EchartsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/EstimateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/HomePageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/LevelController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/ScreenCourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Carousel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CarouselExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartPro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CartProExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Chapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/ChapterExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Classify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/CourseExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Direction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/DirectionExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Estimate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/EstimateExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/HomePageExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/Level.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/entity/LevelExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/CarouselMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/CartProMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/ChapterMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/ClassifyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/CourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/DirectionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/EstimateMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/HomePageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/LevelMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/mapper/ScreenCourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/CarouselService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/ClassifyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/DirectionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/EstimateService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/HomePageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/CarouselServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/ClassifyServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/CourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/DirectionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/EstimateServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/HomePageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/LevelServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/ScreenCourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/LevelService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/ScreenCourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ ScreenCourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/CarouselMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/CartProMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ChapterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ClassifyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/DirectionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/EstimateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/HomePageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/LevelMapper.xml" afterDir="false" />
+    <list default="true" id="2b33d76d-a20c-4137-b95f-23752a4b5251" name="Default Changelist" comment="06-27-更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootimooc/bootimooc/service/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mbg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/Impl/UsersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bootimooc/bootimooc/service/UsersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +208,7 @@
       <workItem from="1592871765761" duration="3641000" />
       <workItem from="1592959412141" duration="9677000" />
       <workItem from="1593131110750" duration="4297000" />
-      <workItem from="1593219195427" duration="504000" />
+      <workItem from="1593219195427" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="06-12-更新">
       <created>1591960872682</created>
@@ -382,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591960872682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="06-27-更新">
+      <created>1593219824943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593219824943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +232,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="06-12-更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="06-12-更新" />
+    <MESSAGE value="06-27-更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="06-27-更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="181" key="#Project_Structure" timestamp="1591926405724">
@@ -417,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="768" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592548138071" />
-    <state x="459" y="116" key="CommitChangelistDialog2" timestamp="1593219820543">
+    <state x="459" y="116" key="CommitChangelistDialog2" timestamp="1593220020020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="459" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593219820543" />
+    <state x="459" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593220020020" />
     <state x="818" y="278" key="FileChooserDialogImpl" timestamp="1593219565763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -429,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="418" width="373" height="203" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592286419948" />
-    <state x="827" y="416" width="274" height="281" key="Github.ShareDialog" timestamp="1591960981063">
+    <state x="861" y="204" width="274" height="281" key="Github.ShareDialog" timestamp="1593221433336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="827" y="416" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591960981063" />
+    <state x="861" y="204" width="274" height="281" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593221433336" />
     <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1593175979124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -481,10 +324,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="349" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592839764367" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1593219494692">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1593220058731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593219494692" />
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593220058731" />
     <state x="730" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593219205951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -497,10 +340,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591923709130" />
-    <state x="0" y="629" key="svn.repositoryBrowser" timestamp="1593219559369">
+    <state x="1207" y="248" key="svn.repositoryBrowser" timestamp="1593220030729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="629" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1593219559369" />
+    <state x="1207" y="248" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1593220030729" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
